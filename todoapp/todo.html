@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do App Practice</title>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <div id="to-do-container">
+
+      <div class="header">
+        <p class="to-do-paragraph">To Do</p>
+      </div>
+
+      <div>
+        <input 
+          type="text" 
+          placeholder="Add Task"
+          class="input-item"
+          name="input_box"
+          id="input-box">
+
+          <button 
+          id="input-button" onclick="addTask()">Add</button>
+
+      </div>
+      <p>Task List</p>
+      <ul id="list-container"></ul>
+      
+      <hr />
+
+      <div class="counter-container">
+        <div id="task-counters">
+          Completed: <span id="completed-counter">0</span> | Uncompleted <span id="uncompleted-counter">0</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>

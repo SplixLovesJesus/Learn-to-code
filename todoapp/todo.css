@@ -1,0 +1,37 @@
+.to-do-paragraph {
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  font-family: arial;
+  font-size: 15px;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.add-button {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: rgb(0, 120, 255);
+}
+
+.add-button:active {
+  background-color: rgb(0, 130, 255);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
